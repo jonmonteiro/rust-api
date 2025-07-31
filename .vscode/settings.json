@@ -1,0 +1,3 @@
+{
+  "rust-analyzer.checkOnSave.extraArgs": ["--cfg", "sqlx_macros_unstable"]
+}

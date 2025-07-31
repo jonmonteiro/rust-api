@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "DELETE FROM tasks WHERE task_id = ?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "248a59082c10a40809618749e57149e85ce5ebd509b59c48614fb5b20234aa11"
+}

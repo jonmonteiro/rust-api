@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS axum_mysql;
+
+USE axum_mysql;
+
+CREATE TABLE IF NOT EXISTS tasks (
+  task_id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  priority INT
+);
